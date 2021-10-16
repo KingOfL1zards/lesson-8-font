@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<body>
+  <h1>Lesson 8. Images, animation, font awesome</h1>  
+  <div class="fontawesome">
+      <h2>Font awesome + transition</h2>
+      <div class="fonticons">
+          <ul>
+              <li > <i class="far fa-check-square"></i> Marvel</li>
+              <li> <i class="fas fa-spinner fa-pulse"></i> DC</li>
+              <li> <i class="fab fa-phoenix-squadron"></i> Starwors</li>
+          </ul>
+          
+      </div>
+     <p>Наведись на синий блок и узри магию <strong>transition.</strong></p>
+  </div>
+  <div class="transform">
+          <h2>Transform</h2>
+          <div class="block">
+              <div class="transformelement"></div>
+              <div class="transformelement"></div>
+              <div class="transformelement"></div>
+            </div>
+            <p><strong>Transform & keyfarms</strong> в действии.</p>
+  </div>
+  <div class="backgroundimage">
+      <h2></h2>
+      <div class="bgimage"></div>
+      <p>Вставляем картинку через <strong>CSS</strong> свойство <strong>background.</strong></p>
+  </div>
+  <div class="pictureblock">
+      <h2>Image(Html Picture)</h2>
+      <picture>
+          <source srcset="./marvel.jpg" media="(min-width:1360px)" type="image/jpg" >
+          <source srcset="./dc.jpg" media="(min-width:960px)" type="image/jpg">
+          <source srcset="./starwar.png" media="(max-width:960px)" type="image/png">
+          <img src="/marvel.jpg" alt="">
+      </picture>
+      <p></p>
+      <p></p>
+  </div>
+</body>
+</html>

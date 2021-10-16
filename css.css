@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+}
+.fontawesome{
+    margin: 20px 0px;
+    
+}
+.fonticons{
+    background-color: darkolivegreen;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px 0px;
+    display: flex;
+    transition: width 2s;
+}
+.fonticons:hover{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 15px 0;
+}
+.far,.fas,.fab{
+    padding: 0 15px;
+}
+.transformelement{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 30px 0;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    opacity: .7;
+}
+.block{
+    background-color: rgb(8, 8, 7);
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+@keyframes skew {
+    0% {
+        transform: skewX(20deg);
+    }
+    100% {
+        transform: skewX(-20deg);
+    }
+}
+.bgimage{
+    margin: 20px 0;
+    background-image: url(/space.jfif);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.pictureblock{
+    margin: 20px 0;
+
+}
+.pictureblock img{
+    width: 100%;
+}
